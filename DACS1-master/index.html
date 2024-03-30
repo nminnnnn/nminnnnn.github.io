@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:ital,wght@0,200;0,300;1,500&display=swap" rel="stylesheet">
+    <title>PetStore</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="header">
+
+  
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+            <a href="index.html"> <img src="img/635-removebg-preview.png" width="200" alt=""></a>   
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+          <a href="cart.html"><img src="img/cart.png" width="30px" height="30px" alt=""></a> 
+            <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Dazzling Pets <br> Where Love and Care Meet Fur-ever!</h1>
+                <p>Unleash the Joyful Journey with Your Beloved Companions!</p>
+                <a href="product.html" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="img/238938-P2ZS46-65-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- phan categories-->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="img/meo anh.jpg"  alt="">
+            </div>
+            <div class="col-3">
+                <img src="img/phoc.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="img/meo.jpg" alt="">
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
+<!-- phan product-->
+<div class="small-container">
+    <h2 class="title">Featured Product</h2>
+    <div class="row">
+        <div class="col-4">
+          <a href="product-details.html"><img src="img/Golden.jpg" alt=""></a>  
+          <a href="product-details.html"> <h4>Golden Dog</h4> </a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$499.00</p>
+        </div>
+        <div class="col-4">
+            <img src="img/Scottish.jpg"  alt="">
+            <h4>Scottish Cat</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$549.00</p>
+        </div>
+        <div class="col-4">
+            <img src="img/meo long ngan.jpg" alt="">
+            <h4>Munchkin Cat</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$549.00</p>
+        </div>
+        <div class="col-4">
+            <img src="img/Husky.jpg" alt="">
+            <h4>Husky Dog</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$589.00</p>
+        </div>
+    </div>
+    <h2 class="title">Lastest Product</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="img/Shiba.jpg" alt="">
+            <h4>Shiba Dog</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$399.00</p>
+        </div>
+        <div class="col-4">
+            <img src="img/Dobermann Dog.jpg"  alt="">
+            <h4>Dobermann Dog</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$599.00</p>
+        </div>
+        <div class="col-4">
+            <img src="img/Ba Tu.jpg" alt="">
+            <h4>Persian</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$549.00</p>
+        </div>
+        <div class="col-4">
+            <img src="img/Birman Blue.jpg" alt="">
+            <h4>Birman Blue Cat</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$699.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="img/Bull.jpg" alt="">
+            <h4>Black France Bull </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$389.00</p>
+        </div>
+        <div class="col-4">
+            <img src="img/Bengal.jpg"  alt="">
+            <h4>Bengal Cat</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$599.00</p>
+        </div>
+        <div class="col-4">
+            <img src="img/Samoyed.jpg" alt="">
+            <h4>Samoyed Dog</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$549.00</p>
+        </div>
+        <div class="col-4">
+            <img src="img/Sphynx.jpg" alt="">
+            <h4>Sphynx</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$649.00</p>
+        </div>
+    </div>
+    
+</div>
+   <!--offer-->
+   <div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/Afghan Hound.jpg " class="offer-img" alt="">
+            </div>
+            <div class="col-2">
+                <p>Rare Variety on PetStore</p>
+                <h1>Afghan Hound Dog</h1>
+                <small>
+                    The Afghan Hound is a majestic breed known for its regal appearance and graceful movement. With their long, silky coat and striking features, these dogs embody elegance and refinement. Intelligent and affectionate, they make loyal companions, though they require regular grooming and exercise to thrive.
+                </small>
+                <br>    <a href="AfghanHound.html" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+ <!--testimonial-->
+ 
+ <div class="testimonial">
+    <div class="smaill-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <img src="img/user-1.png" alt="">
+                <h3>Le Van Teo</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <img src="img/user-2.png" alt="">
+                <h3>Nguyen Thanh Binh</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <img src="img/user-3.png" alt="">
+                <h3>Le Cong Nguyen</h3>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- brands -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="img/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="img/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="img/logo-paypal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="img/logo-philips.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and IOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png" alt="">
+                        <img src="img/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                  <img src="img/635-removebg-preview.png" ">
+                    <p>Our aim is to make the fun and benefits of pets accessible to many people in a sustainable way.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023</p>
+        </div>
+    </div>
+    <!--js for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+        
+        function menutoggle() {
+            if(MenuItems.style.maxHeight =="0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
